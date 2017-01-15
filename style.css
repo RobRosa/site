@@ -1,1 +1,15 @@
-div{display: block; padding: 10px; position: absolute; top: 50%; left: 50%; background-color: #602; color: #fff; font-family: Arial}
+.wrap{
+	width: 1040px;
+	display: flex;
+	margin: 0 auto;
+}
+.wrap div{
+	display: flex;
+	flex: flex-item;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	background-color: #602; 
+	color: #fff; 
+	font-family: Arial
+}
