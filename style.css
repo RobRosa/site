@@ -1,15 +1,27 @@
+*{box-sizing: border-box;}
+
 .wrap{
 	width: 1040px;
-	display: flex;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .wrap div{
-	display: flex;
-	flex: flex-item;
-	width: 100px;
-	height: 100px;
+	float: left;
+	width: 32%;
+	height: 50px;
 	padding: 10px;
 	background-color: #602; 
 	color: #fff; 
-	font-family: Arial
+	font-family: Arial;
+	border: 1px solid #cdcdcd;
+	margin: 15px 0;
+}
+
+.wrap div:nth-child(3n+2){
+	margin: 15px 1.5%;
+	opacity: .8;
+}
+
+.wrap div:nth-child(3n+3){
+	opacity: .6;
 }
